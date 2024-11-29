@@ -1,0 +1,38 @@
+[0.548s] Invoking command in '/home/hegde-aryan/dev/robo/ros2_ws/src/simple_pub_sub': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/prefix_override:/home/hegde-aryan/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages:${PYTHONPATH} /home/hegde-aryan/miniconda3/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_pub_sub build --build-base /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build install --record /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/install.log --single-version-externally-managed install_data
+[0.751s] running egg_info
+[0.751s] creating ../../build/simple_pub_sub/simple_pub_sub.egg-info
+[0.762s] writing ../../build/simple_pub_sub/simple_pub_sub.egg-info/PKG-INFO
+[0.763s] writing dependency_links to ../../build/simple_pub_sub/simple_pub_sub.egg-info/dependency_links.txt
+[0.763s] writing entry points to ../../build/simple_pub_sub/simple_pub_sub.egg-info/entry_points.txt
+[0.763s] writing requirements to ../../build/simple_pub_sub/simple_pub_sub.egg-info/requires.txt
+[0.763s] writing top-level names to ../../build/simple_pub_sub/simple_pub_sub.egg-info/top_level.txt
+[0.763s] writing manifest file '../../build/simple_pub_sub/simple_pub_sub.egg-info/SOURCES.txt'
+[0.788s] reading manifest file '../../build/simple_pub_sub/simple_pub_sub.egg-info/SOURCES.txt'
+[0.788s] adding license file 'LICENSE'
+[0.788s] writing manifest file '../../build/simple_pub_sub/simple_pub_sub.egg-info/SOURCES.txt'
+[0.788s] running build
+[0.789s] running build_py
+[0.789s] creating /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+[0.789s] copying simple_pub_sub/publisher.py -> /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+[0.789s] copying simple_pub_sub/subscriber.py -> /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+[0.789s] copying simple_pub_sub/__init__.py -> /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+[0.789s] running install
+[0.794s] running install_lib
+[0.806s] creating /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub
+[0.807s] copying /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub/publisher.py -> /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub
+[0.807s] copying /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub/subscriber.py -> /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub
+[0.807s] copying /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub/__init__.py -> /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub
+[0.807s] byte-compiling /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub/publisher.py to publisher.cpython-312.pyc
+[0.807s] byte-compiling /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub/subscriber.py to subscriber.cpython-312.pyc
+[0.808s] byte-compiling /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub/__init__.py to __init__.cpython-312.pyc
+[0.808s] running install_data
+[0.808s] creating /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/share/ament_index/resource_index/packages
+[0.808s] copying resource/simple_pub_sub -> /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/share/ament_index/resource_index/packages
+[0.809s] copying package.xml -> /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/share/simple_pub_sub
+[0.809s] running install_egg_info
+[0.821s] Copying ../../build/simple_pub_sub/simple_pub_sub.egg-info to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub-0.0.0-py3.12.egg-info
+[0.821s] running install_scripts
+[0.888s] Installing listener script to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/simple_pub_sub
+[0.888s] Installing talker script to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/simple_pub_sub
+[0.888s] writing list of installed files to '/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/install.log'
+[0.925s] Invoked command in '/home/hegde-aryan/dev/robo/ros2_ws/src/simple_pub_sub' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/prefix_override:/home/hegde-aryan/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages:${PYTHONPATH} /home/hegde-aryan/miniconda3/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_pub_sub build --build-base /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build install --record /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/install.log --single-version-externally-managed install_data

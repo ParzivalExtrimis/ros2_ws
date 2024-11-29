@@ -1,0 +1,18 @@
+[0.743s] Invoking command in '/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build --no-deps symlink_data
+[1.032s] running develop
+[1.216s] running egg_info
+[1.233s] writing simple_pub_sub.egg-info/PKG-INFO
+[1.233s] writing dependency_links to simple_pub_sub.egg-info/dependency_links.txt
+[1.233s] writing entry points to simple_pub_sub.egg-info/entry_points.txt
+[1.233s] writing requirements to simple_pub_sub.egg-info/requires.txt
+[1.233s] writing top-level names to simple_pub_sub.egg-info/top_level.txt
+[1.268s] reading manifest file 'simple_pub_sub.egg-info/SOURCES.txt'
+[1.268s] writing manifest file 'simple_pub_sub.egg-info/SOURCES.txt'
+[1.287s] running build_ext
+[1.287s] Creating /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple-pub-sub.egg-link (link to .)
+[1.288s] Installing listener script to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/simple_pub_sub
+[1.288s] Installing talker script to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/simple_pub_sub
+[1.288s] 
+[1.288s] Installed /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub
+[1.289s] running symlink_data
+[1.337s] Invoked command in '/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build --no-deps symlink_data

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/simple_pub_sub/simple_pub_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/simple_pub_sub/simple_pub_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/simple_pub_sub/simple_pub_sub.egg-info/entry_points.txt
+writing requirements to ../../build/simple_pub_sub/simple_pub_sub.egg-info/requires.txt
+writing top-level names to ../../build/simple_pub_sub/simple_pub_sub.egg-info/top_level.txt
+reading manifest file '../../build/simple_pub_sub/simple_pub_sub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/simple_pub_sub/simple_pub_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying simple_pub_sub/publisher.py -> /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+copying simple_pub_sub/subscriber.py -> /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+copying simple_pub_sub/__init__.py -> /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+running install
+running install_lib
+running install_data
+copying resource/simple_pub_sub -> /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/share/simple_pub_sub
+running install_egg_info
+removing '/home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/simple_pub_sub/simple_pub_sub.egg-info to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub-0.0.0-py3.12.egg-info
+running install_scripts
+Installing listener script to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/simple_pub_sub
+Installing talker script to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/simple_pub_sub
+writing list of installed files to '/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/install.log'

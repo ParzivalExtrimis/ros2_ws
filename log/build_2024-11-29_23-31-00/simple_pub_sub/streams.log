@@ -1,0 +1,28 @@
+[0.550s] Invoking command in '/home/hegde-aryan/dev/robo/ros2_ws/src/simple_pub_sub': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/prefix_override:/home/hegde-aryan/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages:${PYTHONPATH} /home/hegde-aryan/miniconda3/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_pub_sub build --build-base /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build install --record /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/install.log --single-version-externally-managed install_data
+[0.745s] running egg_info
+[0.757s] writing ../../build/simple_pub_sub/simple_pub_sub.egg-info/PKG-INFO
+[0.757s] writing dependency_links to ../../build/simple_pub_sub/simple_pub_sub.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../build/simple_pub_sub/simple_pub_sub.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../build/simple_pub_sub/simple_pub_sub.egg-info/requires.txt
+[0.758s] writing top-level names to ../../build/simple_pub_sub/simple_pub_sub.egg-info/top_level.txt
+[0.783s] reading manifest file '../../build/simple_pub_sub/simple_pub_sub.egg-info/SOURCES.txt'
+[0.783s] adding license file 'LICENSE'
+[0.784s] writing manifest file '../../build/simple_pub_sub/simple_pub_sub.egg-info/SOURCES.txt'
+[0.784s] running build
+[0.784s] running build_py
+[0.784s] copying simple_pub_sub/publisher.py -> /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+[0.784s] copying simple_pub_sub/subscriber.py -> /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+[0.784s] copying simple_pub_sub/__init__.py -> /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build/lib/simple_pub_sub
+[0.784s] running install
+[0.789s] running install_lib
+[0.802s] running install_data
+[0.802s] copying resource/simple_pub_sub -> /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/share/ament_index/resource_index/packages
+[0.803s] copying package.xml -> /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/share/simple_pub_sub
+[0.803s] running install_egg_info
+[0.815s] removing '/home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub-0.0.0-py3.12.egg-info' (and everything under it)
+[0.816s] Copying ../../build/simple_pub_sub/simple_pub_sub.egg-info to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages/simple_pub_sub-0.0.0-py3.12.egg-info
+[0.816s] running install_scripts
+[0.883s] Installing listener script to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/simple_pub_sub
+[0.883s] Installing talker script to /home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/simple_pub_sub
+[0.883s] writing list of installed files to '/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/install.log'
+[0.920s] Invoked command in '/home/hegde-aryan/dev/robo/ros2_ws/src/simple_pub_sub' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/prefix_override:/home/hegde-aryan/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/hegde-aryan/dev/robo/ros2_ws/install/simple_pub_sub/lib/python3.12/site-packages:${PYTHONPATH} /home/hegde-aryan/miniconda3/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_pub_sub build --build-base /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/build install --record /home/hegde-aryan/dev/robo/ros2_ws/build/simple_pub_sub/install.log --single-version-externally-managed install_data
