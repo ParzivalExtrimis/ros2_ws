@@ -13,18 +13,18 @@ from std_msgs.msg import String
 
 class SimplePublisher(Node):
     def __init__(self):
-        super.__init__('SimplePublisher')
+        super().__init__('SimplePublisher')
         self.publisher_ = self.create_publisher(String, topic='hello', qos_profile=10)
         interval_ = 0.5
-        self.timer_ = self.create_timer(interval_, self.publish)
+        self.timer_ = self.create_timer(interval_, self.publish_)
         self.counter_ = 0
 
-    def publisher(self):
+    def publish_(self):
         msg_ = String()
         msg_.data = 'Hello: %d' % self.counter_
 
         self.publisher_.publish(msg_)
-        self.get_logger().info('Publishing: %s' % msg_)
+        self.get_logger().info('Publishing: %s' % msg_.data)
 
         self.counter_ += 1
 

@@ -10,11 +10,11 @@ from std_msgs.msg import String
 
 class SimpleSubscriber(Node):
     def __init__(self):
-        super.__init__('SimpleSubscriber')
-        _ = self.create_subscription(String, topic='hello', qos_profile=10, callback=self.subscriber_)
+        super().__init__('SimpleSubscriber')
+        _ = self.create_subscription(String, topic='hello', qos_profile=10, callback=self.subscribe_)
 
-    def subscriber_(self, msg_):
-        self.get_logger().info('Recieved: %s' % msg_)
+    def subscribe_(self, msg_):
+        self.get_logger().info('Recieved: %s' % msg_.data)
 
 # init rcl, get instance of node, spin node
 # explictly destroy node and shutdown client
