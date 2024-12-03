@@ -20,7 +20,7 @@ class SimpleSubscriber(Node):
 # explictly destroy node and shutdown client
 
 def main(args=None):
-    rclpy.init(args)
+    rclpy.init(args = args)
     simple_subscriber = SimpleSubscriber()
     rclpy.spin(simple_subscriber)
 
