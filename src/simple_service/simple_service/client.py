@@ -10,7 +10,7 @@ class SimpleClientAsync(Node):
     def __init__(self):
         super().__init__('simple_client_async')
         self.client_ = self.create_client(AddTwoInts, 'adder')
-        while not self.clent_.wait_for_service(timeout_sec=1.0):
+        while not self.client_.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
         self.req = AddTwoInts.Request()
 
