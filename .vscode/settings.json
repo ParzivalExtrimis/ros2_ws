@@ -6,5 +6,6 @@
     "python.analysis.extraPaths": [
         "/home/hegde-aryan/dev/robo/dev_ws/install/py_pubsub/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
-    ]
+    ],
+    "ros.distro": "jazzy"
 }
